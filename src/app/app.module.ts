@@ -12,6 +12,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { ChatbotComponent } from './chatbot/chatbot.component';
 import { MarqueeComponent } from './marquee/marquee.component';
+import { EssayComponent } from './essay/essay.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MarqueeComponent } from './marquee/marquee.component';
     NavbarComponent,
     FooterComponent,
     ChatbotComponent,
-    MarqueeComponent
+    MarqueeComponent,
+    EssayComponent
   ],
   imports: [
     BrowserModule,
