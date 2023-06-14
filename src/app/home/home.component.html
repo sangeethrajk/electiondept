@@ -1,1 +1,63 @@
 <app-navbar></app-navbar>
+<app-marquee></app-marquee>
+
+<div class="main mt-2">
+
+    <div class="d-flex justify-content-center mb-2">
+        <img src="../../assets/images/eci_logo.png" alt="eci_logo" class="img-fluid" style="width: 6rem;height: auto;">
+    </div>
+    <div class="d-flex justify-content-center">
+        <h3 id="welcome-msg">WELCOME TO THE WEBSITE OF CHIEF ELECTORAL OFFICER,<br>TAMIL NADU</h3>
+    </div>
+    <div class="d-flex justify-content-center">
+        <div class="input-group w-50">
+            <input type="text" class="form-control rounded"
+                placeholder="Enter the EPIC Number to find your Polling booth">
+            <div class="input-group-append ms-2">
+                <button class="btn btn-primary" type="button" data-bs-toggle="modal"
+                    data-bs-target="#epic-modal">Search</button>
+            </div>
+        </div>
+        <div class="modal fade" id="epic-modal" tabindex="-1" aria-labelledby="epic-modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">EPIC Details</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>Elector's Name</td>
+                                    <td>:</td>
+                                    <td>Sangeeth Raj</td>
+                                </tr>
+                                <tr>
+                                    <td>Voter's ID</td>
+                                    <td>:</td>
+                                    <td>XBG3022621</td><br>
+                                </tr>
+                                <tr>
+                                    <td>Polling booth</td>
+                                    <td>:</td>
+                                    <td>Sivanthi School</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <a class="btn btn-primary" target="_blank"
+                            href="https://www.google.com/maps/place/Sivanthi+Matriculation+Higher+Secondary+School/@13.0267346,80.179627,17z/data=!3m1!4b1!4m6!3m5!1s0x3a5260d3fc971127:0x23ce4485812e6a5d!8m2!3d13.0267294!4d80.1822019!16s%2Fg%2F11g_zdm5l?authuser=0&entry=ttu">Get
+                            Directions</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<app-chatbot></app-chatbot>
+<app-footer></app-footer>

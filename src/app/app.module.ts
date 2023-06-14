@@ -9,12 +9,18 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
+import { ChatbotComponent } from './chatbot/chatbot.component';
+import { MarqueeComponent } from './marquee/marquee.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    FooterComponent,
+    ChatbotComponent,
+    MarqueeComponent
   ],
   imports: [
     BrowserModule,
