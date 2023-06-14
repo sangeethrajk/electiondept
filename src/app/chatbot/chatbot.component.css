@@ -1,0 +1,21 @@
+.chatbot-button {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    color: white;
+}
+
+.chat-container {
+    width: 18rem;
+    height: 25rem;
+    border: 1px solid #ccc;
+    position: fixed;
+    bottom: 6rem;
+    right: 1.5rem;
+    background-color: white;
+}
+
+.chat-messages {
+    height: 18rem;
+    overflow-y: scroll;
+}

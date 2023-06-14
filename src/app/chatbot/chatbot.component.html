@@ -1,0 +1,38 @@
+<div *ngIf="isOpen" class="chat-container rounded">
+    <div class="header bg-primary p-2 rounded mb-1">
+        <div class="d-flex align-items-center">
+            <img class="img-fluid bg-white rounded-circle p-1" src="../../assets/images/eci_logo.png" alt="eci_logo"
+                style="width: 2rem;">
+            <span class="text-white ms-2">Chatbot</span>
+        </div>
+    </div>
+
+    <div class="chat-messages mb-1 p-2 border rounded mx-1 ">
+        <div class="bg-primary float-end rounded-pill px-2 text-white" id=" user-message">
+            {{messageInput.value}}
+        </div><br>
+        <div *ngFor="let message of chatMessages"
+            [ngClass]="message.sender === 'user' ? 'user-message' : 'chatbot-message'"
+            class="border rounded-pill px-3 mt-2">
+            {{ message.message }}
+        </div>
+    </div>
+    <div class="chat-input input-group p-1">
+        <input #messageInput type=" text" class="form-control" placeholder="Type your message..."
+            aria-label="Type your message" aria-describedby="Type your message"
+            (keydown.enter)="sendUserMessage(messageInput.value)">
+        <button (click)="sendUserMessage(messageInput.value)" class="btn btn-outline-secondary" type="button"
+            id="button-addon2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-send" viewBox="0 0 16 16">
+                <path
+                    d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z" />
+            </svg>
+        </button>
+    </div>
+</div>
+
+
+<button class="chatbot-button btn btn-primary border d-flex align-items-center p-3 rounded-circle z-3"
+    (click)="toggleChatbot()">
+    <mat-icon class="">chat</mat-icon>
+</button>

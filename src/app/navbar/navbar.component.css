@@ -1,0 +1,60 @@
+/* tollbar row 1 - start */
+.toolbar-row-1 {
+    background-color: #434343;
+    color: white;
+    padding: 0;
+}
+
+.phone-icon-link,
+.email-icon-link {
+    text-decoration: none;
+    color: white;
+}
+
+#social-media>a {
+    border-radius: 100%;
+}
+
+#social-media>a :hover {
+    color: #007bff;
+}
+
+.screen-reader {
+    text-decoration: none;
+    color: white;
+}
+
+.screen-reader:hover {
+    color: #007bff;
+}
+
+.skip-content {
+    text-decoration: none;
+    color: white;
+}
+
+.skip-content:hover {
+    color: #007bff;
+}
+
+/* tollbar row 1 - end */
+
+
+/* tollbar row 2 - start */
+
+#navlist>a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background: linear-gradient(transparent, transparent 50%, #007bff 50%, #007bff);
+    background-size: 100% 200%;
+    /*trasition effect for background*/
+    transition: background 0.5s;
+}
+
+#navlist>a:hover {
+    color: white;
+    background-position: 100% 100%;
+}
+
+/* tollbar row 2 - end */

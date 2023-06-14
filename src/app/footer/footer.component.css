@@ -1,0 +1,26 @@
+footer {
+    background-color: #434343;
+}
+
+.phone-icon-link,
+.email-icon-link {
+    text-decoration: none;
+    color: white;
+}
+
+#social-media>a {
+    border-radius: 100%;
+}
+
+#social-media>a :hover {
+    color: #007bff;
+}
+
+#quick-links>div>ul>li {
+    background: transparent;
+    color: white;
+}
+
+#quick-links>div>ul {
+    border: none;
+}
