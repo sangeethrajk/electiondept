@@ -37,6 +37,11 @@
     color: #007bff;
 }
 
+.active-button {
+    background-color: #007bff;
+    color: #fff;
+}
+
 /* tollbar row 1 - end */
 
 

@@ -5,6 +5,8 @@ import { Component } from '@angular/core';
   templateUrl: './chatbot.component.html',
   styleUrls: ['./chatbot.component.css']
 })
+
+
 export class ChatbotComponent {
 
   isOpen = false;

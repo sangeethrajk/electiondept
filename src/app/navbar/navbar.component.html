@@ -2,7 +2,7 @@
     <mat-toolbar-row class="toolbar-row-1">
 
         <div class="row w-100 m-0">
-            <div class="col-5 row justify-content-between d-flex align-items-center">
+            <div class="col-3 row justify-content-between d-flex align-items-center">
                 <a href="" class="phone-icon-link col-6">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                         class="bi bi-telephone-fill" viewBox="0 0 16 16">
@@ -76,6 +76,10 @@
                     <input class="form-check-input" type="checkbox" role="switch" id="dark-mode">
                     <label class="form-check-label" for="dark-mode">Dark</label>
                 </div>
+            </div>
+            <div class="col-2 d-flex justify-content-center align-items-center">
+                <button (click)="switchToEnglish()" class="btn btn-light">English</button>
+                <button (click)="switchToTamil()" class="ms-2 btn btn-light">தமிழ்</button>
             </div>
         </div>
 
