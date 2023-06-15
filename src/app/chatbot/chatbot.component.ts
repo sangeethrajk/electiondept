@@ -40,4 +40,13 @@ export class ChatbotComponent {
     this.addMessage('chatbot', message);
   }
 
+
+  openWhatsAppChat() {
+    const phoneNumber = '8122886443'; // Replace with your desired phone number
+    const message = 'Hello, let\'s chat!'; // Replace with your desired initial message
+
+    const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+    window.open(url);
+  }
+
 }

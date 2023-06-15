@@ -11,3 +11,10 @@
 marquee>a {
     text-decoration: none;
 }
+
+marquee>a:hover {
+    background-color: #FF78C4;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 1rem;
+}

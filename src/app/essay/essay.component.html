@@ -1,1 +1,37 @@
-<p>essay works!</p>
+<app-navbar></app-navbar>
+
+<div class="main mt-2">
+
+    <div class="d-flex justify-content-center">
+        <h3 class="text-center">ESSAY COMPETITION</h3>
+    </div>
+
+    <div class="d-flex justify-content-center mb-2">
+        <img src="../../assets/images/essay_picture.png" alt="" class="img-fluid w-50">
+    </div>
+
+    <div style="margin-right: 20rem;margin-left: 20rem;">
+        <div class="mb-3">
+            <Label for="exampleFormControlInput1" class="form-label fw-bold">Please Upload file below:</Label><br>
+            <input type="file" class="form-control" id="exampleFormControlInput1">
+        </div>
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#submit-modal">Submit</button>
+        <!-- Modal -->
+        <div class="modal fade" id="submit-modal" aria-labelledby="submit-modal">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body d-flex justify-content-center align-items-center">
+                        <span>
+                            <img class="img-fluid" style="width: 2rem;" src="../../assets/images/check.png" alt="">
+                        </span>
+                        <span class="ms-2">Your Essay has been successfully submitted</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<app-footer></app-footer>
+<app-chatbot></app-chatbot>
