@@ -13,7 +13,8 @@ marquee>a {
 }
 
 marquee>a:hover {
-    background-color: #FF78C4;
+    background-color: #0d6efd;
+    color: white;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     border-radius: 1rem;
