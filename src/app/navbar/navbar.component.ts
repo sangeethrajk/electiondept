@@ -18,4 +18,5 @@ export class NavbarComponent {
     this.translationService.switchLanguage('ta');
   }
 
+
 }
