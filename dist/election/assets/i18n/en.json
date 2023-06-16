@@ -1,0 +1,38 @@
+{
+    "navbar-row2": {
+        "home": "Home",
+        "contact": "Contact Us",
+        "elections": "Elections",
+        "services": "Services",
+        "mediaCorner": "Media Corner",
+        "tender": "Tender/Notifications",
+        "officersLogin": "Officer's Login"
+    },
+    "marquee": {
+        "essay": "Click here for Essay Competition",
+        "poster": "Click here for Poster Competition"
+    },
+    "home": {
+        "welcome-msg": "WELCOME TO THE WEBSITE OF CHIEF ELECTORAL OFFICER, TAMIL NADU",
+        "epicPlaceholder": "Enter the EPIC Number to find your Polling booth",
+        "epicSearch": "Search",
+        "ourServices": "OUR SERVICES",
+        "ourServices1": "Electoral Roll of Continuous Updation - 2023",
+        "ourServices2": "Special Summary Revision - 2023",
+        "ourServices3": "Linking of Aadhaar with Voter ID",
+        "ourServices4": "Electoral Roll Services",
+        "ourServices5": "SVEEP",
+        "ourServices6": "Complaints",
+        "ourServices7": "Press Releases",
+        "ourServices8": "Tenders / Notifications"
+    },
+    "footer": {
+        "quickLinks": "QUICK LINKS",
+        "address": "ADDRESS",
+        "address1": "Secretariat, Fort St. George, Chennai - 600009",
+        "address2": "ceo@tn.gov.in",
+        "address3": "1800 4252 1950",
+        "webIM": "WEB INFORMATION MANAGER",
+        "webIM2": "Secretariat, Fort St. George, Chennai - 600009"
+    }
+}
