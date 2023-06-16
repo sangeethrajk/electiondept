@@ -34,5 +34,11 @@
         "address3": "1800 4252 1950",
         "webIM": "WEB INFORMATION MANAGER",
         "webIM2": "Secretariat, Fort St. George, Chennai - 600009"
+    },
+    "essay": {
+        "essayTitle": "ESSAY COMPETITION",
+        "uploadLabel": "Please Upload the file below:",
+        "submit": "Submit",
+        "submit-msg": "Your Essay has been successfully submitted"
     }
 }
